@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<div class="page">
+		<div class="form">
+			<form class="login-form" method="post" name="form" onsubmit="return validated()">
+			<input autocomplte="off" type="email" name="email" placeholder="Email"/>
+			<div id="email_error">Please fill up your email</div>
+			<input autocomplte="off" type="password" name="password" placeholder="Password"/>
+			<div id="pass_error">Please fill up your Password</div>
+			<button>Login</button>
+			<p class="message">Not Registered? <a href="form.html">Register</a></p>
+		</form>
+		</div>
+	</div>
+	<script src="login.js"></script>
+
+</body>
+</html>
